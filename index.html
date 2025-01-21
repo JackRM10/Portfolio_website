@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jack McLean</title>
+    <link rel="shortcut icon" type="img/jpg" href="images/coding_icon.png">
+    <link rel="stylesheet" href="stylesheet/portfolio.css">
+</head>
+<body>
+    <header>
+        <h1>Jack McLean's Portfolio</h1>
+        <nav>
+            <a href="#about">About Me</a> <!--Anchor to about me section-->
+            <a href="#slideshow">Slideshow</a> <!--Anchor to slideshow section-->
+            <a href="#links">Links</a> <!--Anchor links section-->
+            <a href="#contact">Contact</a> <!--Anchor to contact section-->
+        </nav> 
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            I am a software developer who loves to code! I originally started my career in music documentaries, working with artists including Led Zeppelin, Jack White, Nas, Willie Nelson, Alabama Shakes amongst others.  
+            <br>
+            <br>Having focussed primarily on historic music documentaries, I'm now looking to take my talents into the future with AI Development.
+            <br>
+            <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>'s AI Developer Boot Camp, and trained in AI including Machine Learning and Natural Language Processing. I am experienced in the following web and programming languages: Python, R Studio, HTML, CSS, JavaScript, SQL, and more. 
+            <br>
+            <br>I would love to work with you on your project. <a href="#contact">Contact</a> me below!
+            <br>
+            <br>
+            <div class="images">
+                <img src="images/Profile pic 2.jpg" alt="Jack McLean" class="center">
+            </div>
+        </section>
+
+        <!--Slideshow-->
+        <section id="slideshow">
+            <h2>Slideshow</h2>
+            <div class="slideshow-container">
+                <div class="slide">
+                    <img src="images/AI image_1.jpg" alt=" AI Image">
+                    <p class="slide-description">Trained in AI models including Machine Learning and Natural Language Processing</p>
+                </div>
+                <div class="slide">
+                    <img src="images/HTML_CSS_and_JavaScript_2.jpeg" alt="HTML, CSS, and JS logos">
+                    <p class="slide-description">I am a full-stack software developer, trained in: HTML, CSS, JavaScript,</p>
+                </div>
+                <div class="slide">
+                    <img src="images/Python.png" alt="Python logo">
+                    <p class="slide-description">I'm trained in the popular programming language Python</p>
+                </div>
+                <div class="slide">
+                    <img src="images/SQL_1.png" alt="SQL">
+                    <p class="slide-description">I'm trained in SQL and databases, and have worked in MySQL</p>
+                </div>
+                <div class="slide">
+                    <img src="images/R Studio_3.png" alt="R Studio">
+                    <p class="slide-description">I am trained in the coding language R and familiar with R Studios</p>
+                </div>
+                <div class="slide">
+                    <img src="images/Azure.png" alt="Azure">
+                    <p class="slide-description">During my internship I used Azure DevOps to track and submit work</p>
+                </div>
+                <button id="prevSlide">Previous</button>
+                <button id="nextSlide">Next</button>
+            </div>
+        </section>
+        
+        <!--Links-->
+        <section id="links">
+            <h2>Links</h2>
+            <div class="links-container">
+                <a href="https://github.com/the-tech-academy" target="_blank">
+                    <img src="images/GitHub.png" alt="GitHub Logo"></a>
+                <p>You can view my coding projects on my GitHub profile here:</p>
+                <a href="https://github.com/the-tech-academy" target="_blank">GitHub Profile</a>
+                <br>        
+                <p>You can read more about my career here:</p>
+                <a href="https://www.linkedin.com/in/jack-r-mclean/" target="_blank">Jack McLean LinkedIn</a>
+                <br>
+                <p>For a copy of my resume click here:</p>
+                <a href="https://docs.google.com/document/d/1ds2yDrl--Aw5GY0V1O3vnPFkENeFH1dnFE9HXOwPYu4/edit?usp=sharing" target="_blank">Jack McLean resume</a>
+            </div>
+        </section> 
+        <!--End Links-->       
+
+        <!--Contact-->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="mailto:jack.mclean.academy@outlook.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <!--End Contact-->
+
+        <section id="sign_off">
+            <h3>Thank you for visiting</h3>
+            <p>Looking forward to working with you</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; Jack McLean. All rights reserved.</p>
+    </footer>
+
+    <script src="js/portfolio_2.js"></script>
+</body>
+</html>
