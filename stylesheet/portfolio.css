@@ -2,14 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0b0bda65;
+    background-color:#007bff;
     color: #333;
     text-align: justify;
 }
 
 header {
-    background-color: #164de4;
-    color: white;
+    background-color:#eeea0b;
+    color: rgb(0, 0, 0);
     padding: 1rem 0;
     text-align: center;
 }
@@ -23,13 +23,24 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #ffffff;
+    color: rgb(0, 0, 0);
     font-weight: bold;
 }
 
 nav a.active {
     color: #007bff;
     text-decoration: underline;
+}
+
+.slide-down {
+  transform: translateY(-100%);
+  animation: slideIn 0.8s ease-out forwards;
+}
+
+@keyframes slideIn {
+  to {
+    transform: translateY(0);
+  }
 }
 
 /*-----------------Slideshow Styling-----------------*/
