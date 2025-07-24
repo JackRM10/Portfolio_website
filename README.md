@@ -5,5 +5,7 @@ Includes the following sections:
 
 About Me
 Slideshow
-Lonks
+Links
 Contact
+
+**This is a live draft website - currently being worked on**
