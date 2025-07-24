@@ -8,10 +8,20 @@ body {
 }
 
 header {
-    background-color:#eeea0b;
-    color: rgb(0, 0, 0);
-    padding: 1rem 0;
+    background-image: url("images/Header01.jpg"); /*Needs work*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
     text-align: center;
+    position: relative;
+    margin-bottom: 2rem;
 }
 
 nav {
@@ -23,7 +33,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
@@ -44,6 +54,7 @@ nav a.active {
 }
 
 /*-----------------Slideshow Styling-----------------*/
+/*Update slideshow to have a carousel effect*/
 .slideshow-container {
     position: relative;
     max-width: 600px;
@@ -57,14 +68,19 @@ nav a.active {
 
 .slide img {
     width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
     display: block; /* Ensure the image is treated as a block-level element */
     margin: 0 auto; /* Centers the image horizontally */
 }
 
+.slide img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
 .slide-description {
-    margin-top: 10px;
+    margin-top: 30px;
     font-size: 16px;
     color: #555;
     text-align: center; /* Centers the text under the image */
@@ -82,18 +98,6 @@ nav a.active {
 
 #prevSlide:hover, #nextSlide:hover {
     background-color: #555;
-}
-
-.slide img {
-    width: 100%;  /* Ensures the image takes full width of the container */
-    max-width: 600px; /* Set a maximum width for all images */
-    height: auto; /* Maintains the aspect ratio */
-    max-height: 400px; /* Optional: restricts the maximum height for uniformity */
-    object-fit: cover; /* Ensures the image scales properly without distortion */
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    display: block; 
-    margin: 0 auto; 
 }
 
 /*---------------End Slideshow Styling-----------------*/
