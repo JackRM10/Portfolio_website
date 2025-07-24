@@ -7,5 +7,3 @@ About Me
 Slideshow
 Links
 Contact
-
-**This is a live draft website - currently being worked on**
