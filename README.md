@@ -5,5 +5,5 @@ Includes the following sections:
 
 About Me
 Slideshow
-Lonks
+Links
 Contact
